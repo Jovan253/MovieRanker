@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|c:\\users\\jovan\\documents\\movieranker\\movierankerapi\\movierankerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|solutionrelative:movierankerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|c:\\users\\jovan\\documents\\movieranker\\movierankerapi\\movierankerapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|solutionrelative:movierankerapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|c:\\users\\jovan\\documents\\movieranker\\movierankerapi\\movierankerapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|solutionrelative:movierankerapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|c:\\users\\jovan\\documents\\movieranker\\movierankerapi\\movierankerapi\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|solutionrelative:movierankerapi\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|c:\\users\\jovan\\documents\\movieranker\\movierankerapi\\movierankerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|solutionrelative:movierankerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|c:\\users\\jovan\\documents\\movieranker\\movierankerapi\\movierankerapi\\data\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|solutionrelative:movierankerapi\\data\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|c:\\users\\jovan\\documents\\movieranker\\movierankerapi\\movierankerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5626E1DB-B96C-4291-8DF0-3685A3480B0A}|MovieRankerAPI\\MovieRankerAPI.csproj|solutionrelative:movierankerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MovieRankerAPI\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MovieRankerAPI\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T14:01:14.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MovieRankerAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MovieRankerAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwFcAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:52:36.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieRankerAPI\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Entities\\Movie.cs",
+              "RelativeToolTip": "MovieRankerAPI\\Entities\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T13:04:27.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "MovieRankerAPI\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Entities\\User.cs",
+              "RelativeToolTip": "MovieRankerAPI\\Entities\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:49:05.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MovieRankerAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Program.cs",
+              "RelativeToolTip": "MovieRankerAPI\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:53:19.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MongoDbService.cs",
+              "DocumentMoniker": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Data\\MongoDbService.cs",
+              "RelativeDocumentMoniker": "MovieRankerAPI\\Data\\MongoDbService.cs",
+              "ToolTip": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\Data\\MongoDbService.cs",
+              "RelativeToolTip": "MovieRankerAPI\\Data\\MongoDbService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:39:53.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieRankerAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Jovan\\Documents\\MovieRanker\\MovieRankerAPI\\MovieRankerAPI\\appsettings.json",
+              "RelativeToolTip": "MovieRankerAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-14T11:34:44.05Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

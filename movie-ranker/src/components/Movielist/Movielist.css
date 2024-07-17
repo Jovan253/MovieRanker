@@ -1,0 +1,16 @@
+/* Movie Page */
+.movie-page {
+    padding: 30px 0;
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+.no-movies {
+  color: var(--white);  
+  margin-left: 40%;
+  margin-right: 40%;
+}

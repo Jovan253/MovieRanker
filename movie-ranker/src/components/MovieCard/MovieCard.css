@@ -1,0 +1,70 @@
+.movie-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.movie-number {
+    color: var(--white);
+    margin-right: 50px;
+    font-size: 40px;
+}
+
+.movie-info {
+    display: flex; 
+    padding: 10px;    
+    align-items: center;      
+    width: 100%;
+    max-width: 800px;    
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: var(--secondary);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* .movie-info:hover {
+    transform: translateZ(20px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+} */
+
+.movie-image {
+    width: 100px;
+    height: auto;
+    color: var(--white);
+}
+
+.movie-title {       
+    color: var(--white);
+    margin-left: 20px;
+    /* font-size: 18px; */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis to overflowed text */
+    text-align: center; /* Center text within its container */
+    flex: 1;
+    max-width: calc(75%);
+}
+
+.delete-icon {
+  color: var(--secondary);  
+  margin-left: 20px;
+  margin-top: 0;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .movie-info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .movie-image {
+      width: 80px; /* Adjust image width for smaller screens */
+    }
+  
+    .movie-title {
+      width: 100%; /* Full width for title on smaller screens */
+    }
+  }

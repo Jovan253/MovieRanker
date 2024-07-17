@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "W5PhIosum8Dh1Ka+nRW/R2hg3o8QqZoytm2aZcZp2K8=",
+  "Source": "MovieRankerAPI",
+  "BasePath": "_content/MovieRankerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
