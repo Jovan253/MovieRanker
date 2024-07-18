@@ -59,3 +59,10 @@
 .login-here a:hover {
     color: #f0e250;
 }
+
+@media (max-width: 768px) {
+
+    .register-container {
+        width: 90%;
+    }
+  }

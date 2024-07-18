@@ -14,3 +14,10 @@
   margin-left: 40%;
   margin-right: 40%;
 }
+
+@media (max-width:768px) {
+  
+  .no-movies {
+    font-size: 1.25rem;
+  }
+}
