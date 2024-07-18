@@ -3,6 +3,7 @@ import { useContext } from 'react'
 import { GlobalContext } from '../../context/GlobalState'
 import './ResultCard.css'
 import { useAuth } from '../../context/AuthState';
+import config from '../../utils/config';
 
 export const ResultCard = ({movie}) => {
     const {addMovieToList, movielist} = useContext(GlobalContext);
@@ -15,7 +16,7 @@ export const ResultCard = ({movie}) => {
         if (user) {            
             // console.log(movie);
             try {
-                const response = await fetch(`http://localhost:5098/api/User/${user}/movies`, {
+                const response = await fetch(`${config.apiUrl}/api/User/${user}/movies`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

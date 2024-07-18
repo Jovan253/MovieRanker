@@ -2,6 +2,7 @@ import React from 'react'
 import "./Register.css"
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
+import config from '../../utils/config';
 
 export const Register = () => {
     const [username, setUsername] = useState('');
@@ -12,7 +13,7 @@ export const Register = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         
-        const response = await fetch(`http://localhost:5098/api/User`, {
+        const response = await fetch(`${config.apiUrl}/api/User`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

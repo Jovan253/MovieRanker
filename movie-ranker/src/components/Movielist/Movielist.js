@@ -5,12 +5,13 @@ import { MovieCard } from '../MovieCard/MovieCard';
 import "./Movielist.css"
 import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
 import { useAuth } from '../../context/AuthState';
+import config from '../../utils/config';
 
 export const Movielist = () => {
   const {user} = useAuth();
   const {movielist, setMovielist} = useContext(GlobalContext);
   const [movies, setMovies] = useState(movielist);
-  const [dragging, setDragging] = useState(false);
+  const [dragging, setDragging] = useState(false);  
 
   useEffect(() => {
     if (user) {
@@ -24,7 +25,7 @@ export const Movielist = () => {
 
   const fetchMoviesFromDatabase = async () => {
     try {      
-      const response = await fetch(`http://localhost:5098/api/User/${user}/movies`, {
+      const response = await fetch(`${config.apiUrl}/api/User/${user}/movies`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'
@@ -71,7 +72,7 @@ export const Movielist = () => {
           Rank: index + 1
         }))
         console.log(rankedMovies)
-        const response = await fetch(`http://localhost:5098/api/User/${user}/movies/rankings`, {
+        const response = await fetch(`${config.apiUrl}/api/User/${user}/movies/rankings`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json'

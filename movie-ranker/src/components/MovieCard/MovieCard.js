@@ -4,6 +4,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useAuth } from '../../context/AuthState';
 import { GlobalContext } from '../../context/GlobalState';
+import config from '../../utils/config';
 
 
 export const MovieCard = ({movie, index}) => {  
@@ -14,7 +15,7 @@ export const MovieCard = ({movie, index}) => {
   const handleDeleteMovie = async (movie) => {
     console.log("delete it", movie);
     if (user){
-      const response = await fetch(`http://localhost:5098/api/User/${user}/movies/${movie.id}`, {
+      const response = await fetch(`${config.apiUrl}/api/User/${user}/movies/${movie.id}`, {
           method: 'DELETE',
           headers: {
               'Content-Type': 'application/json'

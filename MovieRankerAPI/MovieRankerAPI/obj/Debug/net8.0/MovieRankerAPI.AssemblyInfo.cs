@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieRankerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60f60269481c7eac7fc3fa5e9896b7043d99abd4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieRankerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieRankerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

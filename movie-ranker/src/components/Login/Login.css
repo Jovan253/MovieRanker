@@ -31,7 +31,7 @@
 
 .login-info input {
     background-color: var(--primary);
-    color: var(--secondary);        
+    color: var(--white);        
     font-size: 1.25rem;
     border-width: 1;
     border-color: var(--secondary);

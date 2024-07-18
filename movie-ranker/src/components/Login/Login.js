@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./Login.css"
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../context/AuthState';
+import config from '../../utils/config';
 
 export const Login = () => {
     const [username, setUsername] = useState('');
@@ -11,9 +12,9 @@ export const Login = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
+        // console.log(config)
         try {
-            const response = await fetch(`http://localhost:5098/api/User/login`, {
+            const response = await fetch(`${config.apiUrl}/api/User/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
